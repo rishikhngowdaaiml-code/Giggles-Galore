@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import './GallerySection.css';
 
-const basePath = "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/";
+const basePath = "/images/";
 const galleryImages = [
   basePath + "media__1778299876296.jpg",
   basePath + "media__1778299876400.jpg",

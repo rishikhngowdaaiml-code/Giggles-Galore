@@ -2,16 +2,18 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft } from 'lucide-react';
 import './CrewPage.css';
+import nikhilImg from '../assets/nikhil.jpg';
 
 const crewMembers = [
-  { id: 1, name: "BHOUTHI", role: "Event Coordinator", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778300846279.jpg" },
-  { id: 2, name: "MAANU", role: "Lead Decorator", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778854343056.jpg" },
-  { id: 3, name: "PRAVEEN", role: "Florist", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778301871559.jpg" },
-  { id: 4, name: "HITESH", role: "Lighting Specialist", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778301918107.jpg" },
-  { id: 5, name: "SURYA", role: "Logistics Manager", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778301954734.jpg" },
-  { id: 6, name: "DARSHAN", role: "Catering Liaison", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778302002911.jpg" },
-  { id: 7, name: "SHILPA", role: "On-site Supervisor", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778302132432.jpg" },
-  { id: 8, name: "YASHASWINI", role: "Team Member", image: "/@fs/C:/Users/1185r/.gemini/antigravity/brain/21157d5f-3ca4-4e67-851b-c9541503c7c1/media__1778302048273.jpg" },
+  { id: 1, name: "BHOUTHI", role: "Event Coordinator", image: "/images/media__1778300846279.jpg" },
+  { id: 2, name: "MAANU", role: "Lead Decorator", image: "/images/media__1778854343056.jpg" },
+  { id: 3, name: "PRAVEEN", role: "Florist", image: "/images/media__1778301871559.jpg" },
+  { id: 4, name: "HITESH", role: "Lighting Specialist", image: "/images/media__1778301918107.jpg" },
+  { id: 5, name: "SURYA", role: "Logistics Manager", image: "/images/media__1778301954734.jpg" },
+  { id: 6, name: "DARSHAN", role: "Catering Liaison", image: "/images/media__1778302002911.jpg" },
+  { id: 7, name: "SHILPA", role: "On-site Supervisor", image: "/images/media__1778302132432.jpg" },
+  { id: 8, name: "YASHASWINI", role: "Team Member", image: "/images/media__1778302048273.jpg" },
+  { id: 9, name: "NIKHIL", role: "Team Member", image: nikhilImg },
 ];
 
 const CrewPage = ({ onBack }) => {
